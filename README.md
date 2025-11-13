@@ -13,8 +13,10 @@ A simple and flexible Python library for adversarial attacks on neural networks.
 ## Installation
 
 ```bash
-# Install from source
-pip install -e .
+# Install from source (Template folder)
+git clone https://github.com/Mohammad-Ali-Haider/rift-adv.git
+
+cd rift-adv
 ```
 
 ## Quick Start
@@ -37,21 +39,6 @@ attack = FGSM(model, eps=0.3)
 adv_images = attack(images, labels)
 
 # That's it! The adversarial images are ready
-```
-
-## Try the Examples
-
-The library includes examples using MNIST with visualizations:
-
-```bash
-# First, train a simple MNIST model (or examples will use untrained model)
-python train_mnist.py
-
-# Run basic example with visualizations
-python example.py
-
-# Run advanced evaluation example
-python example_with_utils.py
 ```
 
 ## Supported Attacks
