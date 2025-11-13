@@ -20,6 +20,8 @@ uv sync
 uv run main.py
 ```
 
+<img src="main_image.png">
+
 ## Quick Start
 
 ```python
