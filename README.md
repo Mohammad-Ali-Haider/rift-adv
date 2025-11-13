@@ -112,6 +112,15 @@ attack = CW(model, c=1.0, steps=1000, targeted=True)
 adv_images = attack(images, labels, target_labels)
 ```
 
+Demo file (demo.py)
+```bash
+uv run demo.py
+```
+
+<img src="assets/demo_results.png">
+<img src="assets/demo_heatmaps.png">
+
+
 ## Attack Parameters
 
 ### Common Parameters
