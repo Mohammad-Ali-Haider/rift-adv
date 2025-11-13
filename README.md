@@ -117,8 +117,8 @@ Demo file (demo.py)
 uv run demo.py
 ```
 
-<img src="assets/demo_results.png">
-<img src="assets/demo_heatmaps.png">
+<img src="assets/demo_results.png" width="500">
+<img src="assets/demo_heatmaps.png" width="500">
 
 
 ## Attack Parameters
