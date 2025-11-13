@@ -15,8 +15,9 @@ A simple and flexible Python library for adversarial attacks on neural networks.
 ```bash
 # Install from source (Template folder)
 git clone https://github.com/Mohammad-Ali-Haider/rift-adv.git
-
 cd rift-adv
+uv sync
+uv run main.py
 ```
 
 ## Quick Start
